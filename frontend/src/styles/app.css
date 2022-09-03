@@ -1,0 +1,97 @@
+.row{
+    display:flex; 
+    flex-direction:row;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: space-between
+}
+.tightrow {
+    display:flex; 
+    flex-direction:row;
+    flex-flow: row wrap;
+    width: 20%;
+    justify-content: space-around;
+}
+table{
+    margin-left: 1%;
+    margin-bottom: 1%;
+    width: 65%;
+    border-spacing: 0px;
+
+}
+.side {
+    background: #D0DBE2;
+    width: 25%;
+    margin-right: 1%
+}
+.p50 {
+    width: 50%;
+}
+.otsikko {
+    margin-top: -3%;
+    background: #24A1E0;
+    height: 70px;
+}
+h1 {
+    padding-top: 2%;
+    padding-left: 1%;
+}
+
+.vaihdaVertailu {
+    height: 40px;
+    width: 50%;
+    font-size: 18px;
+}
+.l {
+    margin-right: 0;
+    border-right: none;
+}
+.r {
+    margin-left: 0;
+    border-left: none;
+}
+.valittu {
+    background-color: #24A1E0;
+}
+.astext {
+    background:none;
+    border:none;
+    margin:0;
+    padding:0;
+    cursor: pointer;
+}
+.linkki {
+    color: #20475B;
+    height: 20px;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.tablecontainer {
+    width: 100%;
+    padding-top: 1%;
+
+    background: #dfefff;
+}
+
+
+body {
+    width:100vw;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.taulukkokuvaaja {
+    width: 50%;
+}
+.selectedBox {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+}
+.unselectedBox {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}

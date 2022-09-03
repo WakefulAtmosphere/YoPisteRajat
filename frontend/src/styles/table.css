@@ -1,0 +1,38 @@
+
+td {
+    width: 40px;
+}
+tr {
+    height: 40px;
+    max-height: 43.5px;
+}
+.nimi {
+    width: 168px;
+    border-top: 1px solid #254776;
+    border-left: 0px;
+    font-weight: bold;
+}
+.piste {
+    border-top: 1px solid #254776;
+}
+.solu {
+    border-left: 1px solid #254776;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    padding: 13px 15px;
+}
+td > p {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.kuvaajaSolu {
+    border: #254776;
+    width: 500px;
+    height: 500px; 
+}
+.arvosana {
+    font-weight:bolder;
+}
